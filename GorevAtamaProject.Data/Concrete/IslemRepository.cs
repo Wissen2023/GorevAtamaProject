@@ -13,6 +13,7 @@ namespace GorevAtamaProject.Data.Concrete
         public List<Islem> GetListAll()
         {
             throw new NotImplementedException();
+
         }
     }
 }

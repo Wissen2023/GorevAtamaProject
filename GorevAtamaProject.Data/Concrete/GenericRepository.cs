@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GorevAtamaProject.Data.Concrete
 {
-    public class GenericRepository<TEntity, TContext> : IRepository<TEntity>
+    public class GenericRepository<TEntity, TContext> : IRepository<TEntity> 
         where TEntity : class
         where TContext : DbContext, new()
     {
