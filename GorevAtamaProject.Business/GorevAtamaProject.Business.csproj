@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GorevAtamaProject.Data\GorevAtamaProject.Data.csproj" />
+    <ProjectReference Include="..\GorevAtamaProject.Entity\GorevAtamaProject.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
